@@ -1,0 +1,205 @@
+@media(max-width:1024px){
+  
+    .estrutura{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-areas: 
+    ". conteudo ."
+        ;
+    }
+   
+    .conteudo{
+        margin-top: 20px;
+        grid-area: conteudo;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:  auto auto;
+        grid-template-areas: 
+        
+        "item item item1 item2"
+        "item3 item4 item4 item2"
+        ;
+        gap: 10px;
+    }
+}
+
+
+@media(max-width:912px){
+  
+    .estrutura{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-areas: 
+    ". conteudo ."
+        ;
+    }
+   
+    .conteudo{
+     
+        grid-area: conteudo;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto auto auto; 
+        grid-template-areas: 
+        ". . . "
+        "item item item1 "
+        "item3 item4 item4 "
+        "item2 item2 item2"
+    
+        ;
+        gap: 10px;
+    }
+
+    .daniel-topo h2{
+        font-size: 18px;
+    }
+    
+    .daniel-topo p{
+        
+        font-size: 18px;
+    }
+    
+    .daniel-texto{
+        font-size: 18px;
+      
+    }
+    
+    .daniel-texto2{
+        font-size: 16px;
+    }
+
+    .jonathan-topo h2{
+        font-size: 18px;
+    
+    }
+    .verified{
+        font-size: 18px;
+    
+    }
+    
+    .jonanthan-texto p{
+       font-size: 18px;
+       
+    }
+    
+    .jonathan-texto1{
+        font-size: 16px;
+    }
+
+    /*  */
+    
+    .jeanette-topo h2{
+        font-size: 18px;
+    
+    }
+    .jeanette-topo p {
+        font-size: 18px;
+    
+    }
+    
+    .jeanette-texto1 p{
+       font-size: 18px;
+       
+    }
+    
+    .jeanette-texto2{
+        font-size: 16px;
+    }
+    
+    /*  */
+       
+    .patrick-topo h2{
+        font-size: 18px;
+    
+    }
+    .patrick-topo p {
+        font-size: 18px;
+    
+    }
+    
+    .patrick-texto1 p{
+       font-size: 16px;
+       
+    }
+    
+    .patrick-texto2{
+        font-size: 16px;
+    }
+    
+/*  */
+
+.kira-topo h2{
+    font-size: 18px;
+
+}
+.kira-topo {
+    font-size: 18px;
+
+}
+
+.kira-texto1 p{
+   font-size: 16px;
+   
+}
+
+.kira-texto2{
+    font-size: 16px;
+}
+    
+}
+
+
+@media(max-width:768px){
+ 
+    .estrutura{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns:100% ;
+        padding: 2px 15px;
+        grid-template-areas: 
+    "conteudo"
+        ;
+    }
+   
+    .conteudo{
+     
+        grid-area: conteudo;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5,auto)  ;
+        grid-template-areas: 
+      
+        "item"
+        "item1"
+        "item2 "
+        "item3"
+        "item4"
+    
+        ;
+        gap: 10px;
+    }
+
+    .daniel-topo{
+        gap:5px;
+    }
+    .daniel-topo h2{
+        font-size: 16px;
+    }
+    
+    .daniel-topo p{
+        
+        font-size: 16px;
+    }
+    
+    .daniel-texto{
+        font-size: 16px;
+      
+    }
+    
+    .daniel-texto2{
+        font-size: 14px;
+        padding: 5px;
+    }
+}

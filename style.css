@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    background: #EBEFF2
+}
+
+.estrutura{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-areas: 
+". conteudo ."
+    ;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 40px auto auto;
+    grid-template-areas: 
+    ". . . ."
+    "item item item1 item2"
+    "item3 item4 item4 item2"
+    ;
+    gap: 10px;
+}
+
+
+.item{
+    grid-area: item;
+   
+    background-color: #733FC8;
+
+}
+
+.daniel-topo{
+    display: flex;
+    gap:15px;
+    padding: 5px;
+}
+
+.daniel-topo h2{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.daniel-topo p{
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.daniel-texto{
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+}
+
+.daniel-texto2{
+    color: #A775F2;
+    font-style: italic;
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+
+.item1{
+    grid-area: item1;
+    background: #49556B;
+    padding: 5px;
+}
+
+.jonathan-topo{
+    display: flex;
+    gap: 10px;
+}
+
+.jonathan-topo h2{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.verified{
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+}
+
+.jonanthan-texto p{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.jonathan-texto1{
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.item2{
+    grid-area: item2;
+    background: white;
+    padding: 10px;
+}
+
+.kira-topo{
+    display: flex;
+    gap: 10px;
+}
+
+.kira-topo h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kira-topo p{
+    font-style: italic;
+    font-size: 16px;
+}
+
+.kira-texto1 p{
+    text-align: justify;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold; 
+     
+}
+
+.kira-texto2{
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px;
+   
+}
+
+.item3{
+    grid-area: item3;
+    background: white;
+    padding: 10px;
+}
+
+.jeanette-topo{
+    display: flex;
+    gap: 10px;
+}
+
+.jeanette-topo h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jeanette-topo p{
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+.jeanette-texto1 p{
+    text-align: start;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold; 
+     
+}
+
+.jeanette-texto2{
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px;
+   
+}
+
+.item4{
+    grid-area: item4;
+    background: #18202D;
+    padding: 10px;
+}
+
+.patrick-topo{
+    display: flex;
+    gap: 10px;
+}
+
+.patrick-topo h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.patrick-topo p{
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+}
+
+
+.patrick-texto1 p{
+    text-align: start;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold; 
+    color: white;
+     
+}
+
+.patrick-texto2{
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    
+   
+}
+
+
+
+
